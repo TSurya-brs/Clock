@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clock</title>
+
+  <!-- Css -->
+   <link rel="stylesheet" href="assets/Css/style.css">
+
+   <!-- javascript -->
+    <script src="assets/js/script.js"></script>
+</head>
+
+
+<body>
+  <div class="header">
+    <h1>JS Basic Clock</h1>
+  </div>
+
+  <div class="time">  
+    <p> Time </p> 
+  </div>  
+
+
+  <div class="divclk">
+    
+    <div class="clk">
+      <ul>
+        <li class="t12"> 12 </li>
+        <li class="t3" >3</li>
+        <li class="t6" >6</li>
+        <li class="t9" >9</li>
+      </ul>
+      <span class="dot"></span>
+      <span class="hour"></span>
+      <span class="min"></span>
+      <span class="sec"></span>
+    </div>
+  </div>
+
+
+
+  
+  <div class="colourbox">
+    <div class="div">
+      <input type="text" id="content" placeholder="Enter a colour" style="padding: 8px;">
+      <button type="button" id="btn" onclick="getcolour()" style="padding: 5px;">submit</button>
+    </div>
+  </div>
+
+
+
+    <div class="footer">
+      <div>
+        <button  onclick="colour('red')" style="background-color: red; padding: 8px;" ></button>
+        <button onclick="colour('green')" style="background-color: green; padding: 8px;"></button>
+        <button onclick="colour('rgb(65, 199, 188)')" style="background-color: rgb(65, 199, 188); padding: 8px;"></button>
+      </div>
+    </div>
+
+
+</body>
+</html>
